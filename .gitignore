@@ -1,0 +1,28 @@
+# --- SvelteKit / Node / Bun ---
+node_modules/
+.svelte-kit/
+build/
+.env
+.env.*
+!.env.example
+package-lock.json
+bun.lockb
+
+# --- Go / Backend ---
+backend/backend         # The compiled binary (if named backend)
+backend/clipsync.db     # The local SQLite database
+backend/clipsync.db-journal
+*.exe
+*.test
+bin/
+
+# --- Nix ---
+.direnv/
+.envrc
+
+# --- OS / IDE ---
+.DS_Store
+.vscode/
+.idea/
+*.log
+
